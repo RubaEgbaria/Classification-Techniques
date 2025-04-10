@@ -53,14 +53,3 @@ After computing these metrics, **interpret and explain your observations** based
 3. Pre-process the data (e.g., filling missing values, cleaning, scaling, etc.) **before applying the algorithms**.
 
 ---
-
-### Submission Instructions:
-
-- Ensure that your code is well-commented and easy to follow.
-- Submit your report, which should include:
-    - A description of your methodology.
-    - The error curves for each algorithm.
-    - Observations on overfitting or underfitting.
-    - The final tuned model and its corresponding metrics.
-
-Good luck!
