@@ -1,55 +1,35 @@
-# Classification Techniques Assignment
-
-## Part One:
-
-In this assignment, you will explore and experiment with several classification and predictive modeling techniques, including **K-Nearest Neighbors (KNN)**, **Support Vector Machine (SVM)**, **Decision Tree**, and **Naïve Bayes**.
-
-### Tasks:
-- **Decision Tree**: Tune it for the best hyperparameters.
-- **KNN**: Tune it for the best K value.
-- **For the best-tuned classifier**, you should determine the following metrics:
-    - Confusion Matrix
-    - Precision
-    - Recall
-    - F1-Score
-    - Draw the ROC curves for all classifiers on one graph.
-
-After computing these metrics, **interpret and explain your observations** based on the results.
-
----
-
-## Part Two:
-
-### Draw the training error and validation error curves on one graph for each of the above algorithms as follows:
-
-1. **Data Split**: First, split your dataset into a **training set (70%)** and a **test set (30%)**.
-   
-2. **Cross-Validation Technique**: Use cross-validation on the training set to draw the training and validation error curves:
-   
-    - **Repeat the experiment 10 times**:
-        - In the first experiment, use **10%** of the training set for training and validation.
-        - In the second experiment, use **20%** of the training set, and so on, until the tenth experiment where you use **100%** of the training set for training and validation.
-   
-    - **Fold Division**: In each experiment, divide the used set (e.g., 10%, 20%, ..., 100%) into **10 folds**:
-        - One fold is used for validation, and the other 9 folds are used for training.
-        - Repeat this process **10 times**, each time recording the **training error** and **validation error**.
-        - Finally, take the **average** of the training and validation errors for each experiment.
-   
-3. **Training & Validation Curves**: After completing the 10 experiments, you will have 10 average values for the **training error** and 10 average values for the **validation error**. 
-
-    - **Plot the training and validation error curves** with respect to the training set size used in each experiment.
-   
-4. **Overfitting or Underfitting**:
-    - Analyze the error curves to check if **overfitting** or **underfitting** occurs in your algorithm.
-    - If either overfitting or underfitting is observed, **solve** the issue and show the result after applying the solution.
-   
-5. **Error Comparison**: Compare the **training error**, **validation error**, and **test error** for each algorithm.
-
----
-
-## Notes:
-1. You can find the data file on the **Moodle course page** under the name **"globalterrorism"**.
-2. The target column in the dataset corresponds to **attack types**.
-3. Pre-process the data (e.g., filling missing values, cleaning, scaling, etc.) **before applying the algorithms**.
-
----
+Classification Techniques 
+Part One:  
+In this Assignment you will explore and experiment with several classification and predictive modeling (KNN, 
+SVM, Decision tree and Naïve Bayesian). 
+For decision tree you should tune it for the best hyperparameters  
+For KNN you should tune it for best K 
+For the best tuned classifier, you should determine the 
+• The confusion matrix 
+• Precision 
+• Recall 
+• F1-Score 
+• Draw the ROC curves for all classifier on one graph 
+Interpret and explain your observation on result 
+Part Two: 
+Draw the training error and validation error curves on one graph for each of the above algorithm as follows 
+A. First split your data into training set 70% and test set 30% 
+B. Use cross validation technique on train set to draw the training and validation error as follows 
+• Repeat the experiment 10 times, in first experiment use 10% of the training set for training and 
+validation, in the second experiment used 20% of training set for training and validation and so on 
+until the tenth experiment were use 100% of training set for training and validation. 
+• In each experiment divide the used set (i.e. the 10% or 20% .. or 100% of training set) into 10 folds 
+where one-fold used for validation and the other 9-folds used for training, in which it will repeated 
+10 times each time record the training error and validation error and finally take the average for the 
+training and validation 
+• After finishing the 10 experiments you will have 10 average values for training error and 10 average 
+values for validation error 
+• Finally draw the training error curve and validation error curve with respect to training set size used 
+in each experiment  
+• Show if overfitting or underfitting are appear in your algorithm if so, solve it and show the result 
+after you solve it 
+• Compare the training error, validation error with test error for each algorithm algorithms 
+Note 1. You can find the data file on Moodle course page as “globalterrorism” 
+Note 2. The target column are the attack types 
+Note 3. You need to pre-process the data such as filling missing, cleaning, scaling etc., you should do that 
+before you start applying the algorithms 
