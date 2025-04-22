@@ -1,6 +1,6 @@
 # Classification Techniques 
 
-# Part One:  
+## Part One:  
 
 In this Assignment you will explore and experiment with several classification and predictive modeling (KNN, 
 
@@ -24,7 +24,7 @@ For the best tuned classifier, you should determine the
 
 Interpret and explain your observation on result 
 
-# Part Two: 
+## Part Two: 
 
 Draw the training error and validation error curves on one graph for each of the above algorithm as follows 
 
